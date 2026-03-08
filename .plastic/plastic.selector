@@ -1,0 +1,4 @@
+repository "Mobile-Counter-TD-Idle/Mobile-Counter-TD-Idle@18968150851899@cloud"
+  path "/"
+    br "/main"
+    co "/main"
