@@ -12,23 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5bcf81ef15670240aa1bc5f6970c232, type: 3}
   m_Name: Gnome
   m_EditorClassIdentifier: Assembly-CSharp::UnitData
-  displayName: 
-  unitID: 
+  displayName: Gnome
+  unitID: gnome
   icon: {fileID: 0}
   animatorController: {fileID: 0}
-  baseHP: 0
-  baseATK: 0
-  baseDEF: 0
-  baseATKSpeed: 0
-  baseMoveSpeed: 0
-  baseCritRate: 0
-  baseCritDMG: 0
-  hurtboxSize: {x: 0, y: 0}
-  hitboxSize: {x: 0, y: 0}
+  baseHP: 60
+  baseATK: 9
+  baseDEF: 2
+  baseATKSpeed: 1.2
+  baseMoveSpeed: 2.5
+  baseCritRate: 0.08
+  baseCritDMG: 1.5
+  hurtboxSize: {x: 0.7, y: 0.9}
+  hitboxSize: {x: 0.4, y: 0.3}
   hurtboxOffset: {x: 0, y: 0}
   hitboxOffset: {x: 0, y: 0}
-  spawnCostMeat: 0
+  spawnCostMeat: 9
   unlockCostOre: 0
-  productionTime: 0
+  productionTime: 25
   spawnCooldown: 0
   abilityTags: []

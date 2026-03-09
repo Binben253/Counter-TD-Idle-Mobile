@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     }
     private void InitializeGame() 
     {
+        Application.targetFrameRate = 60; // add this as first line
         playerData = SaveSystem.LoadOrCreate();
         ProcessOfflineProgress();
         playerData.lastLoginTime = DateTime.UtcNow.ToString("O");

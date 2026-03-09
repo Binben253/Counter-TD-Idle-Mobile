@@ -12,23 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5bcf81ef15670240aa1bc5f6970c232, type: 3}
   m_Name: Skull
   m_EditorClassIdentifier: Assembly-CSharp::UnitData
-  displayName: 
-  unitID: 
+  displayName: Skull
+  unitID: skull
   icon: {fileID: 0}
   animatorController: {fileID: 0}
-  baseHP: 0
-  baseATK: 0
-  baseDEF: 0
-  baseATKSpeed: 0
-  baseMoveSpeed: 0
-  baseCritRate: 0
-  baseCritDMG: 0
-  hurtboxSize: {x: 0, y: 0}
-  hitboxSize: {x: 0, y: 0}
+  baseHP: 80
+  baseATK: 12
+  baseDEF: 4
+  baseATKSpeed: 1
+  baseMoveSpeed: 2
+  baseCritRate: 0.05
+  baseCritDMG: 1.5
+  hurtboxSize: {x: 0.8, y: 1}
+  hitboxSize: {x: 0.5, y: 0.3}
   hurtboxOffset: {x: 0, y: 0}
   hitboxOffset: {x: 0, y: 0}
-  spawnCostMeat: 0
+  spawnCostMeat: 10
   unlockCostOre: 0
-  productionTime: 0
+  productionTime: 30
   spawnCooldown: 0
   abilityTags: []
