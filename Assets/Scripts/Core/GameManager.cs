@@ -33,6 +33,15 @@ public class GameManager : MonoBehaviour
             return;
         }
         TimeSpan timeAway = DateTime.UtcNow - lastLogin;
+
+        // If negative or less than 1 second — first launch or clock weirdness
+        // Skip offline progress entirely, nothing to give
+        if (timeAway.TotalSeconds < 1)
+        {
+            Debug.Log("GameManager: first launch or invalid time gap, skipping offline progress");
+            return;
+        }
+
         double secondsAway = Math.Min(timeAway.TotalSeconds, 8 * 3600);
         Debug.Log($"GameManager: player was away for {secondsAway} seconds");
 
